@@ -715,4 +715,76 @@ nav .navbar-content {
         padding-right: 0px; 
     }
 }
+/* Register Styles */
+
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem; /* Increased padding for a more spacious look */
+    border: 1px solid #ddd; /* Light border for definition */
+    border-radius: 8px; /* Rounded corners for a modern feel */
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.register-title {
+    font-size: 2rem; /* Large title */
+    font-weight: bold;
+    margin-bottom: 1.5rem; /* Increased margin for spacing */
+    color: #333; /* Dark color for readability */
+    text-align: center; /* Centered title */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Increased gap for better spacing */
+}
+
+.register-input {
+    padding: 0.75rem; /* Increased padding for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Standard font size */
+    transition: border-color 0.3s; /* Smooth border color change */
+}
+
+.register-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.register-button {
+    padding: 0.75rem; /* Comfortable button size */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Blue background */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effect */
+}
+
+.register-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.register-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-link {
+    color: #007bff;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color change */
+}
+
+.login-link:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
 
